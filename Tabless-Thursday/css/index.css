@@ -159,7 +159,7 @@ p {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
-  background-color: lightsteelblue;
+  background-color: #91AA9D;
 }
 .header {
   width: 800px;
@@ -188,12 +188,20 @@ p {
   margin-right: 1px;
 }
 .main .main-intro h1 {
-  font-size: 20px;
+  font-size: 40px;
+  font-family: Bitter;
+  line-height: 1.5;
   padding-bottom: 15px;
+  color: #FCFFF5;
+}
+.main .main-intro p {
+  font-family: Rubik;
+  font-size: 20px;
+  padding-bottom: 5px;
 }
 .main .main-intro button {
   margin-top: 15px;
-  background: lightcyan;
+  background: #FCFFF5;
   width: 150px;
   border-radius: 10px;
   font-size: 15px;
@@ -226,4 +234,92 @@ p {
 }
 .why .reasons-main .reason-indy p {
   padding-top: 2px;
+}
+.how {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+.how .how-fast {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.how .how-fast i {
+  padding-left: 15px;
+  padding-right: 20px;
+}
+.how .how-fast h4 {
+  font-size: 4rem;
+  color: #FCFFF5;
+}
+.how .how-list {
+  flex-direction: column;
+  padding-right: 15px;
+  padding-top: 20px;
+  color: #FCFFF5;
+}
+.how .how-list p {
+  font-size: 25px;
+  padding-right: 35px;
+}
+.testimonial {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: white;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+.testimonial h4 {
+  font-size: 20px;
+  padding: 15px 10px 4px 10px;
+  color: #3E606F;
+}
+.testimonial p {
+  padding-top: 2px;
+  padding-left: 7px;
+  padding-right: 5px;
+}
+.cta-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+.cta-bottom h4 {
+  font-size: 4rem;
+  color: #FCFFF5;
+}
+.cta-bottom button {
+  margin-top: 25px;
+  background: #FCFFF5;
+  width: 175px;
+  border-radius: 10px;
+  font-size: 15px;
+  padding: 8px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 25px;
+  padding-bottom: 20px;
+  border-top: 1px solid #FCFFF5;
+}
+footer .footer-logo {
+  padding-top: 10px;
+  padding-left: 10px;
+  color: #FCFFF5;
+}
+footer .footer-contact {
+  padding: 10px;
+  color: #FCFFF5;
 }
