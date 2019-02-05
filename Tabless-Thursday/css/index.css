@@ -326,8 +326,9 @@ p {
 .why .why-top .why-indy {
   padding: 0 5%;
   overflow: hidden;
-  height: 180px;
+  height: 135px;
   position: relative;
+  max-width: 50%;
 }
 .why .why-top .why-indy h4 {
   color: #3e606f;
@@ -364,6 +365,56 @@ p {
   left: 25%;
 }
 .why .why-top .why-open {
+  height: 415px;
+}
+.why .why-end {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 50px;
+}
+.why .why-end .why-indy {
+  padding: 0 5%;
+  overflow: hidden;
+  height: 135px;
+  position: relative;
+  max-width: 50%;
+}
+.why .why-end .why-indy h4 {
+  color: #3e606f;
+  font-family: Bitter;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 4px;
+}
+@media (max-width: 500px) {
+  .why .why-end .why-indy h4 {
+    padding-bottom: 8px;
+  }
+}
+.why .why-end .why-indy p {
+  font-family: Rubik;
+  padding-top: 2px;
+  padding-bottom: 5px;
+  background-color: white;
+}
+@media (max-width: 500px) {
+  .why .why-end .why-indy p {
+    padding-bottom: 8px;
+  }
+}
+.why .why-end .why-indy .expandButton {
+  font-size: 15px;
+  color: #91AA9D;
+  cursor: pointer;
+  background-color: white;
+  padding-top: 5px;
+  font-family: Rubik;
+  position: absolute;
+  bottom: 0;
+  left: 25%;
+}
+.why .why-end .why-open {
   height: 415px;
 }
 .testimonial {
