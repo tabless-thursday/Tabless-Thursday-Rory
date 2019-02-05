@@ -2,11 +2,15 @@
 <html lang='en'>
   <head>
     <meta charset='UTF-8'/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabless Thursday</title>
    
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Bitter|Rubik" rel="stylesheet">
     <link rel='stylesheet' href='css/index.css'/>
+
+
+    <script src="index.js" async></script>
   </head>
 
   <body>
@@ -16,7 +20,7 @@
       <img src="assets/TABLESS THURSDAY HEADER.png" alt="Tabless Thursday">
       <nav class = "navigation">
             <a href="#why-overview">WHY</a>
-            <a href="#how-overview">HOW</a>
+            <!-- <a href="#how-overview">HOW</a> -->
             <a href="#test-overview">TESTIMONIALS</a>
             <a href="#sign-up-cta">SIGN UP</a>
           </nav>
@@ -27,51 +31,64 @@
         <section class="main">
             <img class="landing-image" src="assets/marie_kondo.PNG" alt="Tabless Thursday Sparks Joy">
             <div class="main-intro">
-                <h1>The Marie Kondo of Tab Management</h1>
+                <h1>"The Marie Kondo of Tab Management"</h1>
                 <p>Organize your tabs.</p>
                 <p>Organize your life.</p>
-                <button>Start Tabbing Joy</button>
+                <button class="btn"><a href="https://tabless-thursday.firebaseapp.com/authenticate">Spark Tabbing Joy</a></button>
             </div>
         </section>
 
-        <section id="why-overview" class="why">
-            <div class = "why-quote">
-                <h2>"A messy browser equals a messy mind."</h2>
-            </div>
+        <section class="quote">
+            <img class="quote-image" src="assets/banner quote.png" alt="A messy browser equals a messy mind.">
+        </section>
+       
 
-            <div class="reasons-main">
-            <div class = "why-reasons-top">
-                <div class= "reason-indy">
+        <section id="why-overview" class="why">
+            <div class="why-top">
+                <div class= "why-indy">
                     <i class="far fa-folder fa-5x"></i>
                     <h4>Organization</h4>
-                    <p>Lorem ipsum dolor sit, amet consectetur?</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur?</p><br>
+                    <br>
+                    
+                    <p>Squashy armchairs dirt on your nose brass scales crush the Sopophorous bean with flat side of silver dagger, releases juice better </p>
+                    <span class="expandButton"></span>
                 </div>
-                <div class= "reason-indy">
+                <div class= "why-indy">
                     <i class="far fa-clock fa-5x"></i>
                     <h4>Productivity</h4>
-                    <p>Lorem ipsum dolor sit, amet consectetur?</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur?</p><br>
+                    <br>
+                    <p>Squashy armchairs dirt on your nose brass scales crush the Sopophorous bean with flat side of silver dagger, releases juice better </p>
+                    <span class="expandButton"></span>
                 </div>
-            </div>
-            <div class="why-reasons-bottom">
-                <div class= "reason-indy">
+            
+            <!-- <div class="why-bottom"> -->
+                <div class= "why-indy">
                     <i class="fas fa-unlock-alt fa-5x"></i>
                     <h4>Accessibility</h4>
-                    <p>Lorem ipsum dolor sit, amet consectetur?</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur?</p><br>
+                    <br>
+
+                    <p>Squashy armchairs dirt on your nose brass scales crush the Sopophorous bean with flat side of silver dagger, releases juice better </p>
+                    <span class="expandButton"></span>
                 </div>
-                <div class= "reason-indy">
+                <div class= "why-indy">
                     <i class="far fa-grin-hearts fa-5x"></i>
                     <h4>Peace of Mind</h4>
-                    <p>Lorem ipsum dolor sit, amet consectetur?</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur?</p><br>
+                    <br>
+                    
+                    <p>Squashy armchairs dirt on your nose brass scales crush the Sopophorous bean with flat side of silver dagger, releases juice better </p>
+                    <span class="expandButton"></span>
                 </div>
-            </div>
-              
             </div>
             </section>
 
-            <section id="how-overview" class="how">
+            <!-- <section id="how-overview" class="how">
                 <div class= "how-fast">
-                    <i class="fas fa-bolt fa-5x"></i>
-                    <h4>Fast & Easy to Use</h4>
+                    <i class="fas fa-bolt fa-5x"></i> -->
+                    <!-- <h4>- Fast & Easy to Use -</h4>
                 </div>
 
                 <div class="how-list">
@@ -80,28 +97,18 @@
                     <p>3. Save</p>
                 </div>
 
-            </section>
-
-
+            </section> -->
 
             <section id="test-overview" class="testimonial">
-                <div class="testimonial-quote">
-                    <h4>"Lorem ipsum dolor sit, amet consectetur? Lorem ipsum dolor sit, amet consectetur?" </h4>
-                    <p>Raving Fan</p>
-                </div>
-                <div class="testimonial-quote">
-                    <h4>"Lorem ipsum dolor sit, amet consectetur? Lorem ipsum dolor sit, amet consectetur?" </h4>
-                    <p>Raving Fan</p>
-                </div>
-                <div class="testimonial-quote">
-                    <h4>"Lorem ipsum dolor sit, amet consectetur? Lorem ipsum dolor sit, amet consectetur?"</h4>
-                    <p>Raving Fan</p>
-                </div>
+                    <img class="test-block" src="assets/testimonial 1.png" alt="Marie K. Testimonial">
+                    <img class="test-block" src="assets/testimonial 2.png" alt="Test #2">
+                    <img class="test-block" src="assets/testimonial 3.png" alt="Test #3">
             </section>
             
             <section id="sign-up-cta" class="cta-bottom">
                 <h4>Start Cleaning Up Your Tabs Today</h4>
-                <button>Join Tabless Thursday</button>
+                <button class="cta-btn"><a href="https://tabless-thursday.firebaseapp.com/authenticate">Join Tabless Thursday</a></button>
+                <img class="cta-image" src="assets/kondo cta.jpg" alt="Marie Kondo Says Sign Up Here for Tabless Thursday">
             </section>
                 
     <footer>

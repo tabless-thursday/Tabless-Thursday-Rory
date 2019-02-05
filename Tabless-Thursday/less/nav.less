@@ -1,24 +1,5 @@
-// .navigation {
-//     width: 100%;
-//     margin: 0 auto;
-//     display: flex;
-//     justify-content: space-between;
-//     align-items: center;
-//     flex-direction: column;
-//     background-color: #F6F7F8;;
-//     height: 100px;
-//     padding-bottom: 15px;
-//     padding-top: 15px;
-
-//         h1 {
-//             font-size: 40px;
-//             padding-bottom: 15px;
-//         }
-
-//     }
-
 .header {
-    width: 800px;
+    width: 1000px;
     margin: 0 auto;
     height: 80px;
     display: flex;
@@ -28,13 +9,37 @@
     padding-bottom: 15px;
     padding-top: 15px;
 
-        .navigation {
+    @media @phone {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 25px;
+        margin-bottom: 20px;
+    }
 
+      @media @tablet { 
+        max-width: 100%;
+    }
+
+      .navigation {
+        @media @phone {
+            padding-top: 17px;
         }
+
+    }
+       
             a {
             text-decoration: none;
-            color: black;
+            color: #193441;
             padding: 15px;
             font-size: 12px;
-            }
-    }
+
+                &:hover {
+                    text-decoration: underline;
+                    color: #3E606F;
+                }
+                @media @phone {
+                    font-size: 16px;
+                  }
+    } 
+}

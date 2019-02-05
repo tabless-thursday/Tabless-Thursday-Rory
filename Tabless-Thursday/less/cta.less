@@ -1,0 +1,60 @@
+.cta-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 2px;
+
+    @media @phone {
+        max-width: 95%;
+        text-align: center;
+    }
+
+    // @media @tablet {
+    //     display: flex;
+    //     flex-direction: column;
+    //     align-items: center;
+    //     padding-top: 25px;
+    //     padding-bottom: 2px;
+    // }
+
+        h4{
+            font-family: Bitter;
+            font-size: 4rem;
+            color: #3e606f;
+
+            @media @phone {
+                max-width: 480px;
+                line-height: 1.4;
+                margin: 0 auto;
+                padding-left: 15px;
+            }
+
+            // @media @tablet {
+            //     font-family: Bitter;
+            //     font-size: 4rem;
+            //     color: #3e606f;
+            // }
+        }
+
+        .cta-btn {
+            .btn-main(205px, 40px,#FCFFF5, #193441);
+            margin-bottom: 20px;
+        }
+
+        a:link {
+            font-family: Rubik;
+            text-decoration: none;
+            color: #FCFFF5;
+        }
+
+        a:hover {
+                color: #FCFFF5;
+                background-color: #193441;
+        }
+
+        .cta-image {
+            height: 25%;
+            width: 25%;
+        }
+}
