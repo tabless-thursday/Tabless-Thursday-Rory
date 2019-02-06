@@ -269,9 +269,8 @@ p {
   text-decoration: none;
   color: #FCFFF5;
 }
-.main .main-intro a:hover {
-  color: #FCFFF5;
-  background-color: #193441;
+.main .main-intro a:visited {
+  color: #D1DBBD;
 }
 .quote {
   display: flex;
@@ -597,9 +596,8 @@ p {
   text-decoration: none;
   color: #FCFFF5;
 }
-.cta-bottom a:hover {
-  color: #FCFFF5;
-  background-color: #193441;
+.cta-bottom a:visited {
+  color: #D1DBBD;
 }
 .cta-bottom .cta-image {
   height: 25%;

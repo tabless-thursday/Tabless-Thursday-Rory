@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     padding-top: 80px;
-    background-color: #91AA9D;
+    background-color: @ocean-foam;
 
         @media @phone{
             max-width: 100%;
@@ -44,7 +44,7 @@
             font-family: Bitter;
             line-height: 1.5;
             padding-bottom: 15px;
-            color:  #FCFFF5;
+            color:  @light-sand;
 
             // @media @tablet {
             //     font-size: 40px;
@@ -72,20 +72,19 @@
 
 
         .btn {
-            .btn-main(180px, 40px, #FCFFF5, #193441)
+            .btn-main(180px, 40px, @light-sand, @dark-blue)
         }
 
         a:link {
             font-family: Rubik;
             text-decoration: none;
-            color: #FCFFF5;
+            color: @light-sand;
         }
 
-        a:hover {
-                color: #FCFFF5;
-                background-color: #193441;
+        a:visited{
+            color: @light-moss;
         }
-        
+
     }
 
 }
