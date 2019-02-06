@@ -337,8 +337,11 @@ p {
     text-align: center;
     padding-bottom: 0px;
     max-width: 90%;
-    height: 155px;
+    height: 135px;
   }
+}
+.why .why-top .why-indy i {
+  color: #3e606f;
 }
 .why .why-top .why-indy h4 {
   color: #3e606f;
@@ -380,7 +383,18 @@ p {
   }
 }
 .why .why-top .why-open {
-  height: 415px;
+  padding-top: 5px;
+  height: 315px;
+  background-color: #3e606f;
+  color: #FCFFF5;
+}
+.why .why-top .why-open h4 {
+  background-color: #3e606f;
+  color: #FCFFF5;
+}
+.why .why-top .why-open p {
+  background-color: #3e606f;
+  color: #FCFFF5;
 }
 .why .why-end {
   display: flex;
@@ -417,8 +431,11 @@ p {
     text-align: center;
     padding-bottom: 0px;
     max-width: 90%;
-    height: 155px;
+    height: 135px;
   }
+}
+.why .why-end .why-indy i {
+  color: #3e606f;
 }
 .why .why-end .why-indy h4 {
   color: #3e606f;
@@ -460,7 +477,18 @@ p {
   }
 }
 .why .why-end .why-open {
-  height: 415px;
+  padding-top: 5px;
+  height: 315px;
+  background-color: #3e606f;
+  color: #FCFFF5;
+}
+.why .why-end .why-open h4 {
+  background-color: #3e606f;
+  color: #FCFFF5;
+}
+.why .why-end .why-open p {
+  background-color: #3e606f;
+  color: #FCFFF5;
 }
 .testimonial {
   display: flex;
