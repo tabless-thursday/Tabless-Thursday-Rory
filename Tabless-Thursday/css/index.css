@@ -686,5 +686,7 @@ p {
   color: #FCFFF5;
 }
 .footer-main .contact-family .footer-contact .footer-heading {
+  font-family: Bitter;
   font-size: 20px;
+  color: #3E606F;
 }
