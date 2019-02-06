@@ -431,6 +431,10 @@ p {
   background-color: #3E606F;
   color: #FCFFF5;
 }
+.why .why-top .why-open .expandButton {
+  background-color: #3E606F;
+  color: #FCFFF5;
+}
 .why .why-end {
   display: flex;
   flex-direction: row;
@@ -536,6 +540,10 @@ p {
   background-color: #3E606F;
   color: #FCFFF5;
 }
+.why .why-end .why-open .expandButton {
+  background-color: #3E606F;
+  color: #FCFFF5;
+}
 .testimonial {
   display: flex;
   flex-direction: row;
@@ -630,6 +638,11 @@ p {
   background-color: #193441;
   color: #FCFFF5;
 }
+@media (max-width: 500px) {
+  .cta-bottom .cta-btn {
+    width: 245px;
+  }
+}
 .cta-bottom a:link {
   font-family: Rubik;
   text-decoration: none;
@@ -657,6 +670,11 @@ p {
     flex-direction: column;
     text-align: center;
     padding-top: 10px;
+  }
+}
+@media (max-width: 800px) {
+  .footer-main {
+    width: 100%;
   }
 }
 .footer-main .footer-logo {
