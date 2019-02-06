@@ -286,6 +286,12 @@ p {
     height: 95%;
   }
 }
+@media (max-width: 800px) {
+  .quote .quote-image {
+    width: 95%;
+    height: 95%;
+  }
+}
 .why {
   display: flex;
   flex-direction: row;
@@ -568,8 +574,18 @@ p {
 }
 @media (max-width: 500px) {
   .cta-bottom h4 {
-    max-width: 480px;
+    max-width: 95%;
     line-height: 1.4;
+    margin: 0 auto;
+    padding-left: 15px;
+    text-align: center;
+  }
+}
+@media (max-width: 800px) {
+  .cta-bottom h4 {
+    max-width: 95%;
+    line-height: 1.4;
+    text-align: center;
     margin: 0 auto;
     padding-left: 15px;
   }

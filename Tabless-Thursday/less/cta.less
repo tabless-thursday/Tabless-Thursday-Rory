@@ -10,31 +10,26 @@
         text-align: center;
     }
 
-    // @media @tablet {
-    //     display: flex;
-    //     flex-direction: column;
-    //     align-items: center;
-    //     padding-top: 25px;
-    //     padding-bottom: 2px;
-    // }
-
         h4{
             font-family: Bitter;
             font-size: 4rem;
             color: @light-blue;
 
             @media @phone {
-                max-width: 480px;
+                max-width: 95%;
                 line-height: 1.4;
                 margin: 0 auto;
                 padding-left: 15px;
+                text-align: center;
             }
 
-            // @media @tablet {
-            //     font-family: Bitter;
-            //     font-size: 4rem;
-            //     color: #3e606f;
-            // }
+            @media @tablet {
+                max-width: 95%;
+                line-height: 1.4;
+                text-align: center;
+                margin: 0 auto;
+                padding-left: 15px;
+            }
         }
 
         .cta-btn {
