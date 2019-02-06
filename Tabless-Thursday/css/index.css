@@ -288,10 +288,11 @@ p {
 }
 .why {
   display: flex;
-  flex-direction: column;
-  background-color: white;
+  flex-direction: row;
   padding-top: 15px;
   padding-bottom: 40px;
+  justify-content: space-evenly;
+  padding-top: 40px;
 }
 @media (max-width: 800px) {
   .why {
@@ -306,7 +307,7 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 20px 50px;
+  padding: 0 10px;
 }
 @media (max-width: 500px) {
   .why .why-top {
@@ -329,6 +330,7 @@ p {
   height: 135px;
   position: relative;
   max-width: 50%;
+  text-align: center;
 }
 @media (max-width: 500px) {
   .why .why-top .why-indy {
@@ -359,7 +361,7 @@ p {
   font-family: Rubik;
   padding-top: 2px;
   padding-bottom: 5px;
-  background-color: white;
+  color: #193441;
 }
 @media (max-width: 500px) {
   .why .why-top .why-indy p {
@@ -375,17 +377,26 @@ p {
   font-family: Rubik;
   position: absolute;
   bottom: 0;
-  left: 25%;
+  left: 34%;
+}
+@media (max-width: 800px) {
+  .why .why-top .why-indy .expandButton {
+    left: 39%;
+  }
 }
 @media (max-width: 500px) {
   .why .why-top .why-indy .expandButton {
-    left: 32%;
+    left: 34%;
   }
 }
 .why .why-top .why-open {
   padding-top: 5px;
   height: 315px;
   background-color: #3e606f;
+  color: #FCFFF5;
+  border-radius: 8px;
+}
+.why .why-top .why-open i {
   color: #FCFFF5;
 }
 .why .why-top .why-open h4 {
@@ -400,7 +411,7 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 20px 50px;
+  padding: 0 10px;
 }
 @media (max-width: 500px) {
   .why .why-end {
@@ -423,6 +434,7 @@ p {
   height: 135px;
   position: relative;
   max-width: 50%;
+  text-align: center;
 }
 @media (max-width: 500px) {
   .why .why-end .why-indy {
@@ -454,6 +466,7 @@ p {
   padding-top: 2px;
   padding-bottom: 5px;
   background-color: white;
+  color: #193441;
 }
 @media (max-width: 500px) {
   .why .why-end .why-indy p {
@@ -469,17 +482,26 @@ p {
   font-family: Rubik;
   position: absolute;
   bottom: 0;
-  left: 25%;
+  left: 34%;
+}
+@media (max-width: 800px) {
+  .why .why-end .why-indy .expandButton {
+    left: 39%;
+  }
 }
 @media (max-width: 500px) {
   .why .why-end .why-indy .expandButton {
-    left: 32%;
+    left: 34%;
   }
 }
 .why .why-end .why-open {
   padding-top: 5px;
   height: 315px;
   background-color: #3e606f;
+  color: #FCFFF5;
+  border-radius: 8px;
+}
+.why .why-end .why-open i {
   color: #FCFFF5;
 }
 .why .why-end .why-open h4 {
