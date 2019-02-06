@@ -624,7 +624,7 @@ p {
   height: 25%;
   width: 25%;
 }
-footer {
+.footer-main {
   display: flex;
   background-color: #91AA9D;
   flex-direction: row;
@@ -632,13 +632,59 @@ footer {
   padding-top: 25px;
   padding-bottom: 20px;
   border-top: 1px solid #FCFFF5;
+  font-family: Rubik;
 }
-footer .footer-logo {
-  padding-top: 10px;
+@media (max-width: 500px) {
+  .footer-main {
+    flex-direction: column;
+    text-align: center;
+    padding-top: 10px;
+  }
+}
+.footer-main .footer-logo {
+  flex-direction: row;
   padding-left: 10px;
-  color: #FCFFF5;
+  width: 200px;
 }
-footer .footer-contact {
+@media (max-width: 500px) {
+  .footer-main .footer-logo {
+    flex-direction: column;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    width: 75%;
+  }
+}
+.footer-main .footer-logo img {
+  height: 50%;
+  width: 50%;
+}
+.footer-main .footer-logo p {
+  color: #FCFFF5;
+  font-family: Rubik;
+}
+@media (max-width: 500px) {
+  .footer-main .footer-logo p {
+    font-size: 25px;
+  }
+}
+.footer-main .contact-family {
+  display: flex;
+  flex-direction: row;
+  padding-right: 15px;
+}
+@media (max-width: 500px) {
+  .footer-main .contact-family {
+    flex-direction: column-reverse;
+    border-top: 2px solid #FCFFF5;
+    padding: 10px 70px;
+    max-width: 95%;
+    margin: 0 auto;
+  }
+}
+.footer-main .contact-family .footer-contact {
   padding: 10px;
   color: #FCFFF5;
+}
+.footer-main .contact-family .footer-contact .footer-heading {
+  font-size: 20px;
 }
