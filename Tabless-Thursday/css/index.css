@@ -330,6 +330,16 @@ p {
   position: relative;
   max-width: 50%;
 }
+@media (max-width: 500px) {
+  .why .why-top .why-indy {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 0px;
+    max-width: 90%;
+    height: 155px;
+  }
+}
 .why .why-top .why-indy h4 {
   color: #3e606f;
   font-family: Bitter;
@@ -364,6 +374,11 @@ p {
   bottom: 0;
   left: 25%;
 }
+@media (max-width: 500px) {
+  .why .why-top .why-indy .expandButton {
+    left: 32%;
+  }
+}
 .why .why-top .why-open {
   height: 415px;
 }
@@ -373,12 +388,37 @@ p {
   justify-content: space-between;
   padding: 20px 50px;
 }
+@media (max-width: 500px) {
+  .why .why-end {
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 0px;
+  }
+}
+@media (max-width: 800px) {
+  .why .why-end {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px;
+  }
+}
 .why .why-end .why-indy {
   padding: 0 5%;
   overflow: hidden;
   height: 135px;
   position: relative;
   max-width: 50%;
+}
+@media (max-width: 500px) {
+  .why .why-end .why-indy {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 0px;
+    max-width: 90%;
+    height: 155px;
+  }
 }
 .why .why-end .why-indy h4 {
   color: #3e606f;
@@ -413,6 +453,11 @@ p {
   position: absolute;
   bottom: 0;
   left: 25%;
+}
+@media (max-width: 500px) {
+  .why .why-end .why-indy .expandButton {
+    left: 32%;
+  }
 }
 .why .why-end .why-open {
   height: 415px;

@@ -43,6 +43,15 @@
                 position: relative;
                 max-width: 50%;
 
+                @media @phone {
+                    display: flex;
+                    flex-direction: column;
+                    text-align: center;
+                    padding-bottom: 0px;
+                    max-width: 90%;
+                    height: 155px;
+                }
+
         
                 h4 {
                     color: #3e606f;
@@ -90,6 +99,10 @@
                     position: absolute;
                     bottom: 0;
                     left: 25%;
+
+                    @media @phone {
+                        left: 32%;
+                    }
                 }
             
             }
@@ -109,18 +122,18 @@
         padding: 20px 50px;
         
 
-            // @media @phone {
-            //     flex-direction: column;
-            //     text-align: center;
-            //     padding-bottom: 0px;
-            // }
+            @media @phone {
+                flex-direction: column;
+                text-align: center;
+                padding-bottom: 0px;
+            }
 
-            // @media @tablet {
-            //     display: flex;
-            //     flex-direction: row;
-            //     justify-content: space-evenly;
-            //     padding: 10px;
-            // }
+            @media @tablet {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+                padding: 10px;
+            }
 
             .why-indy {
                 padding: 0 5%;
@@ -128,7 +141,16 @@
                 height: 135px;
                 position: relative;
                 max-width: 50%;
+                
 
+                @media @phone {
+                    display: flex;
+                    flex-direction: column;
+                    text-align: center;
+                    padding-bottom: 0px;
+                    max-width: 90%;
+                    height: 155px;
+                }
         
                 h4 {
                     color: #3e606f;
@@ -176,6 +198,10 @@
                     position: absolute;
                     bottom: 0;
                     left: 25%;
+
+                    @media @phone {
+                        left: 32%;
+                    }
                 }
             
             }
