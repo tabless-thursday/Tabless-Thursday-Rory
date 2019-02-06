@@ -161,7 +161,7 @@ p {
   margin: 0 auto;
 }
 .header {
-  width: 1000px;
+  max-width: 100%;
   margin: 0 auto;
   height: 80px;
   display: flex;
@@ -206,6 +206,7 @@ p {
   }
 }
 .main {
+  max-width: 100%;
   display: flex;
   align-items: center;
   padding-top: 80px;
@@ -342,10 +343,10 @@ p {
   }
 }
 .why .why-top .why-indy i {
-  color: #3e606f;
+  color: #3E606F;
 }
 .why .why-top .why-indy h4 {
-  color: #3e606f;
+  color: #3E606F;
   font-family: Bitter;
   font-size: 20px;
   padding-top: 10px;
@@ -391,7 +392,7 @@ p {
 .why .why-top .why-open {
   padding-top: 5px;
   height: 315px;
-  background-color: #3e606f;
+  background-color: #3E606F;
   color: #FCFFF5;
   border-radius: 8px;
 }
@@ -399,11 +400,11 @@ p {
   color: #FCFFF5;
 }
 .why .why-top .why-open h4 {
-  background-color: #3e606f;
+  background-color: #3E606F;
   color: #FCFFF5;
 }
 .why .why-top .why-open p {
-  background-color: #3e606f;
+  background-color: #3E606F;
   color: #FCFFF5;
 }
 .why .why-end {
@@ -446,10 +447,10 @@ p {
   }
 }
 .why .why-end .why-indy i {
-  color: #3e606f;
+  color: #3E606F;
 }
 .why .why-end .why-indy h4 {
-  color: #3e606f;
+  color: #3E606F;
   font-family: Bitter;
   font-size: 20px;
   padding-top: 10px;
@@ -496,7 +497,7 @@ p {
 .why .why-end .why-open {
   padding-top: 5px;
   height: 315px;
-  background-color: #3e606f;
+  background-color: #3E606F;
   color: #FCFFF5;
   border-radius: 8px;
 }
@@ -504,11 +505,11 @@ p {
   color: #FCFFF5;
 }
 .why .why-end .why-open h4 {
-  background-color: #3e606f;
+  background-color: #3E606F;
   color: #FCFFF5;
 }
 .why .why-end .why-open p {
-  background-color: #3e606f;
+  background-color: #3E606F;
   color: #FCFFF5;
 }
 .testimonial {
@@ -520,27 +521,31 @@ p {
   padding-bottom: 35px;
   border-top: 2px solid #193441;
   border-bottom: 2px solid #193441;
-  max-width: 960px;
+  max-width: 95%;
   margin: 0 auto;
 }
 @media (max-width: 800px) {
   .testimonial {
-    max-width: 760px;
+    max-width: 95%;
   }
 }
 @media (max-width: 500px) {
   .testimonial {
     flex-direction: column;
-    max-width: 470px;
+    max-width: 95% px;
     margin: 0 auto;
     padding-bottom: 25px;
   }
 }
+@media (max-width: 800px) {
+  .testimonial .test-block {
+    max-width: 33%;
+  }
+}
 @media (max-width: 500px) {
   .testimonial .test-block {
-    text-align: center;
-    padding-left: 75px;
-    padding-right: 75px;
+    max-width: 95%;
+    margin: 0 auto;
   }
 }
 .cta-bottom {
@@ -559,7 +564,7 @@ p {
 .cta-bottom h4 {
   font-family: Bitter;
   font-size: 4rem;
-  color: #3e606f;
+  color: #3E606F;
 }
 @media (max-width: 500px) {
   .cta-bottom h4 {
