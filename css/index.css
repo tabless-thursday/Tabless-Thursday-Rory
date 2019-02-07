@@ -283,6 +283,11 @@ p {
   background-color: #193441;
   color: #FCFFF5;
 }
+@media (max-width: 800px) {
+  .main .main-intro {
+    margin-bottom: 15px;
+  }
+}
 .main .main-intro a:link {
   font-family: Rubik;
   text-decoration: none;
@@ -293,7 +298,7 @@ p {
 }
 .quote {
   display: flex;
-  width: 100%;
+  max-width: 100%;
   background-color: white;
   justify-content: center;
   padding-top: 20px;
