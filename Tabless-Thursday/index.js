@@ -17,16 +17,6 @@ class Why {
 
         this.closeButton.textContent = "Close";
 
-        // this.closeButton = this.domElement.querySelector(".closeButton");
-
-        // this.closeButton.textContent = "Close";
-
-        // this.closeButton.style.display = "none";
-
-        // this.whyClose = this.domElement.querySelector(".why-close");
-
-        // this.whyClose.textContent = "Close";
-
         this.expandButton.addEventListener( 'click', () => this.expandWhy());
 
         this.closeButton.addEventListener( 'click', () => this.closeWhy());
@@ -42,11 +32,6 @@ class Why {
         this.expandButton.style.display = "none";
 
         this.closeButton.style.visibility = "visible";
-
-
-        //this.expandButton.textContent = "Close";
-
-        // this.whyClose.style.display = "visible";
     }
 
      closeWhy() {
@@ -61,17 +46,6 @@ class Why {
 
 
 }
-
-// click () => this.closeWhy()
-
-// closeWhy() {
-//     this.domElement.classList.toggle('why-indy');
-// }
-
-
-// const closes = document.querySelectorAll(".closedButton");
-
-
 
 
 
