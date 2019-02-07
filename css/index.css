@@ -429,7 +429,7 @@ p {
 }
 @media (max-width: 500px) {
   .why .why-top .why-open {
-    height: 330px;
+    height: 345px;
   }
 }
 .why .why-top .why-open i {
@@ -562,6 +562,11 @@ p {
   color: #FCFFF5;
   border-radius: 8px;
 }
+@media (max-width: 500px) {
+  .why .why-end .why-open {
+    height: 345px;
+  }
+}
 .why .why-end .why-open i {
   color: #FCFFF5;
 }
@@ -615,6 +620,11 @@ p {
   align-items: center;
   padding-top: 25px;
   padding-bottom: 2px;
+}
+@media (max-width: 800px) {
+  .cta-bottom {
+    max-width: 100%;
+  }
 }
 @media (max-width: 500px) {
   .cta-bottom {
@@ -714,6 +724,11 @@ p {
   padding-left: 10px;
   max-width: 200px;
 }
+@media (max-width: 800px) {
+  .footer-main .footer-logo {
+    width: 100%;
+  }
+}
 @media (max-width: 500px) {
   .footer-main .footer-logo {
     flex-direction: column;
@@ -749,6 +764,12 @@ p {
   padding-right: 15px;
   max-width: 100%;
 }
+@media (max-width: 800px) {
+  .footer-main .contact-family {
+    width: 100%;
+    padding-right: 0px;
+  }
+}
 @media (max-width: 500px) {
   .footer-main .contact-family {
     flex-direction: column-reverse;
@@ -761,6 +782,12 @@ p {
 .footer-main .contact-family .footer-contact {
   padding: 10px;
   color: #FCFFF5;
+}
+@media (max-width: 800px) {
+  .footer-main .contact-family .footer-contact {
+    max-width: 100%;
+    padding-right: 3px;
+  }
 }
 @media (max-width: 500px) {
   .footer-main .contact-family .footer-contact {

@@ -23,12 +23,17 @@
         padding-left: 10px;
         max-width: 200px;
 
+        @media @tablet {
+            width: 100%;
+        }
+
             @media @phone {
                 flex-direction: column;
                 margin: 0 auto;
                 padding-bottom: 20px;
                 width: 75%;
             }
+
         
             img {
                 height: 50%;
@@ -58,6 +63,11 @@
         padding-right: 15px;
         max-width: 100%;
 
+            @media @tablet {
+                width: 100%;
+                padding-right: 0px;
+        }
+
             @media @phone {
                 flex-direction: column-reverse;
                 border-top: 2px solid #FCFFF5;
@@ -66,13 +76,20 @@
                 margin: 0 auto;
             }
 
+
             .footer-contact{
                 padding: 10px;
                 color: #FCFFF5;
 
+                @media @tablet {
+                    max-width: 100%;
+                    padding-right: 3px;
+                }
+                
                 @media @phone {
                     max-width: 100%;
                 }
+
 
                 .footer-heading {
                     font-family: Bitter;
