@@ -1,11 +1,11 @@
 .footer-main {
     display: flex;
-    background-color: #91AA9D;
+    background-color: @ocean-foam;
     flex-direction: row;
     justify-content: space-between;
     padding-top: 25px;
     padding-bottom: 20px;
-    border-top: 1px solid #FCFFF5;
+    border-top: 1px solid @light-sand;
     font-family: Rubik;
 
         @media @phone {
@@ -65,12 +65,11 @@
 
             @media @tablet {
                 width: 100%;
-                padding-right: 0px;
-        }
+            }
 
             @media @phone {
                 flex-direction: column-reverse;
-                border-top: 2px solid #FCFFF5;
+                border-top: 2px solid @light-sand;
                 padding: 10px 70px;
                 max-width: 95%;
                 margin: 0 auto;
@@ -79,7 +78,7 @@
 
             .footer-contact{
                 padding: 10px;
-                color: #FCFFF5;
+                color: @light-sand ;
 
                 @media @tablet {
                     max-width: 100%;
