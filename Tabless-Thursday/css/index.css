@@ -396,7 +396,6 @@ p {
   font-size: 15px;
   color: #91AA9D;
   cursor: pointer;
-  background-color: white;
   padding-top: 5px;
   font-family: Rubik;
   position: absolute;
@@ -412,6 +411,14 @@ p {
   .why .why-top .why-indy .expandButton {
     left: 34%;
   }
+}
+.why .why-top .why-indy .closeButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  visibility: hidden;
+  cursor: pointer;
+  color: #91AA9D;
 }
 .why .why-top .why-open {
   padding-top: 5px;
@@ -431,7 +438,21 @@ p {
   background-color: #3E606F;
   color: #FCFFF5;
 }
-.why .why-top .why-open .expandButton {
+.why .why-top .why-close {
+  padding-top: 5px;
+  height: 325px;
+  background-color: #3E606F;
+  color: #FCFFF5;
+  border-radius: 8px;
+}
+.why .why-top .why-close i {
+  color: #FCFFF5;
+}
+.why .why-top .why-close h4 {
+  background-color: #3E606F;
+  color: #FCFFF5;
+}
+.why .why-top .why-close p {
   background-color: #3E606F;
   color: #FCFFF5;
 }
@@ -505,7 +526,6 @@ p {
   font-size: 15px;
   color: #91AA9D;
   cursor: pointer;
-  background-color: white;
   padding-top: 5px;
   font-family: Rubik;
   position: absolute;
@@ -522,6 +542,14 @@ p {
     left: 34%;
   }
 }
+.why .why-end .why-indy .closeButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  visibility: hidden;
+  cursor: pointer;
+  color: #91AA9D;
+}
 .why .why-end .why-open {
   padding-top: 5px;
   height: 315px;
@@ -537,10 +565,6 @@ p {
   color: #FCFFF5;
 }
 .why .why-end .why-open p {
-  background-color: #3E606F;
-  color: #FCFFF5;
-}
-.why .why-end .why-open .expandButton {
   background-color: #3E606F;
   color: #FCFFF5;
 }
