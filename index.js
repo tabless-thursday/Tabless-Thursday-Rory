@@ -33,7 +33,6 @@ class Why {
 
         this.closeButton.addEventListener( 'click', () => this.closeWhy());
 
-
     }
 
     //method

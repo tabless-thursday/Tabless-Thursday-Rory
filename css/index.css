@@ -286,7 +286,7 @@ p {
 .main .main-intro a:link {
   font-family: Rubik;
   text-decoration: none;
-  color: #FCFFF5;
+  color: #193441;
 }
 .main .main-intro a:visited {
   color: #D1DBBD;
@@ -426,6 +426,11 @@ p {
   background-color: #3E606F;
   color: #FCFFF5;
   border-radius: 8px;
+}
+@media (max-width: 500px) {
+  .why .why-top .why-open {
+    height: 330px;
+  }
 }
 .why .why-top .why-open i {
   color: #FCFFF5;
@@ -670,6 +675,9 @@ p {
 .cta-bottom a:link {
   font-family: Rubik;
   text-decoration: none;
+  color: #193441;
+}
+.cta-bottom a:hover {
   color: #FCFFF5;
 }
 .cta-bottom a:visited {
@@ -739,6 +747,7 @@ p {
   display: flex;
   flex-direction: row;
   padding-right: 15px;
+  max-width: 100%;
 }
 @media (max-width: 500px) {
   .footer-main .contact-family {
@@ -752,6 +761,11 @@ p {
 .footer-main .contact-family .footer-contact {
   padding: 10px;
   color: #FCFFF5;
+}
+@media (max-width: 500px) {
+  .footer-main .contact-family .footer-contact {
+    max-width: 100%;
+  }
 }
 .footer-main .contact-family .footer-contact .footer-heading {
   font-family: Bitter;

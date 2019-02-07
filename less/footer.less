@@ -56,6 +56,7 @@
         display: flex;
         flex-direction: row;
         padding-right: 15px;
+        max-width: 100%;
 
             @media @phone {
                 flex-direction: column-reverse;
@@ -68,6 +69,10 @@
             .footer-contact{
                 padding: 10px;
                 color: #FCFFF5;
+
+                @media @phone {
+                    max-width: 100%;
+                }
 
                 .footer-heading {
                     font-family: Bitter;
