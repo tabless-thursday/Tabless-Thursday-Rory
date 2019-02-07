@@ -1,0 +1,141 @@
+.about-image {
+    max-width: 100%;
+
+    @media @tablet {
+        max-width: 100%;
+        margin-top: 15px;
+    }
+
+    @media @phone {
+        max-width: 100%;
+        margin-top: 150px;
+    }
+
+}
+
+.team-intro {
+    padding-top: 25px;
+
+        p {
+            font-size: 2.6rem;
+            line-height: 1.4;
+            font-size: 3.6rem;
+            display: flex;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+            color: @ocean-foam;
+        }
+
+}
+
+.roles {
+    font-family: Bitter;
+    color: @ocean-foam;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    padding: 25px 10px;
+    justify-content: space-evenly;
+    width: 40%;
+    flex-wrap: wrap;
+
+    @media @tablet {
+        max-width: 100%;
+    }
+
+    @media @phone {
+        width: 50%;
+    }
+
+
+        .role {
+            padding: 10px;
+            margin: 10px;
+            cursor: pointer;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+
+        .active-tab {
+            background-color: @dark-blue;
+            color: @light-moss;
+            border: 2px solid @light-sand;
+            border-radius: 5px;
+        }
+}
+
+.team-container {
+    display: flex;
+    flex-direction: row;
+    padding-top: 35px;
+    padding-bottom: 45px;
+    padding-left: 15px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    @media @tablet {
+        max-width: 100%;
+        padding: 0;
+    }
+    
+    @media @phone {
+        max-width: 100%;
+        padding-bottom: 40px;
+    }
+
+
+
+    .team-member{
+        display: flex;
+        flex-direction: column;
+        border: 3px solid @dark-blue;
+        border-radius: 10px;
+        width: 35%;
+        height: 150px;
+        margin-right: 18px;
+        margin-bottom: 18px;
+
+        @media @phone {
+            width: 95%;
+            margin-right: 0;
+        }
+    
+        @media @tablet {
+            width: 65%;
+            height: 125px;
+            margin-right: 0;
+        }
+    
+        .picAndName {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            padding-left: 10px;
+            padding-top: 10px;
+            padding-bottom: 20px;
+            align-items: center;
+
+                i {
+                    color: @dark-blue;
+                }
+
+                h3 {
+                    padding-left: 10px;
+                    color: @dark-blue;
+                    font-family: Bitter;
+                    font-size: 2.4rem;
+                }
+        }
+
+        h4 {
+            padding-left: 10px;
+            font-size: 1.8rem;
+            font-family: Rubik;
+        }
+    }
+}
+

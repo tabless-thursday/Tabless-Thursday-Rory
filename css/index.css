@@ -222,9 +222,15 @@ p {
   text-decoration: underline;
   color: #3E606F;
 }
+@media (max-width: 800px) {
+  .header a {
+    padding: 7px;
+  }
+}
 @media (max-width: 500px) {
   .header a {
     font-size: 16px;
+    padding: 5px;
   }
 }
 .main {
@@ -807,4 +813,136 @@ p {
   font-family: Bitter;
   font-size: 20px;
   color: #3E606F;
+}
+.about-image {
+  max-width: 100%;
+}
+@media (max-width: 800px) {
+  .about-image {
+    max-width: 100%;
+    margin-top: 15px;
+  }
+}
+@media (max-width: 500px) {
+  .about-image {
+    max-width: 100%;
+    margin-top: 150px;
+  }
+}
+.team-intro {
+  padding-top: 25px;
+}
+.team-intro p {
+  font-size: 2.6rem;
+  line-height: 1.4;
+  font-size: 3.6rem;
+  display: flex;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  color: #91AA9D;
+}
+.roles {
+  font-family: Bitter;
+  color: #91AA9D;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  padding: 25px 10px;
+  justify-content: space-evenly;
+  width: 40%;
+  flex-wrap: wrap;
+}
+@media (max-width: 800px) {
+  .roles {
+    max-width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .roles {
+    width: 50%;
+  }
+}
+.roles .role {
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+.roles .role:hover {
+  text-decoration: underline;
+}
+.roles .active-tab {
+  background-color: #193441;
+  color: #D1DBBD;
+  border: 2px solid #FCFFF5;
+  border-radius: 5px;
+}
+.team-container {
+  display: flex;
+  flex-direction: row;
+  padding-top: 35px;
+  padding-bottom: 45px;
+  padding-left: 15px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+@media (max-width: 800px) {
+  .team-container {
+    max-width: 100%;
+    padding: 0;
+  }
+}
+@media (max-width: 500px) {
+  .team-container {
+    max-width: 100%;
+    padding-bottom: 40px;
+  }
+}
+.team-container .team-member {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid #193441;
+  border-radius: 10px;
+  width: 35%;
+  height: 150px;
+  margin-right: 18px;
+  margin-bottom: 18px;
+}
+@media (max-width: 500px) {
+  .team-container .team-member {
+    width: 95%;
+    margin-right: 0;
+  }
+}
+@media (max-width: 800px) {
+  .team-container .team-member {
+    width: 65%;
+    height: 125px;
+    margin-right: 0;
+  }
+}
+.team-container .team-member .picAndName {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  align-items: center;
+}
+.team-container .team-member .picAndName i {
+  color: #193441;
+}
+.team-container .team-member .picAndName h3 {
+  padding-left: 10px;
+  color: #193441;
+  font-family: Bitter;
+  font-size: 2.4rem;
+}
+.team-container .team-member h4 {
+  padding-left: 10px;
+  font-size: 1.8rem;
+  font-family: Rubik;
 }
