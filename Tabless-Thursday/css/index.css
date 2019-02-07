@@ -704,7 +704,7 @@ p {
 .footer-main .footer-logo {
   flex-direction: row;
   padding-left: 10px;
-  width: 200px;
+  max-width: 200px;
 }
 @media (max-width: 500px) {
   .footer-main .footer-logo {

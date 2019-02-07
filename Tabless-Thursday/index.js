@@ -1,3 +1,15 @@
+// object rubric
+
+const call = {
+    "h4": "Start Cleaning Up Your Tabs Today"
+}
+
+let callInfo = document.querySelector( ".objectInsert");
+
+callInfo.textContent = call.h4;
+
+
+
 const doubleUp = document.querySelector(".container");
 doubleUp.addEventListener('dblclick', e => {
     window.alert("So Close! Click on the 'Sign Up' Button below :)");
@@ -34,15 +46,15 @@ class Why {
         this.closeButton.style.visibility = "visible";
     }
 
-     closeWhy() {
-         this.domElement.classList.add('why-indy');
+    closeWhy() {
+        this.domElement.classList.add('why-indy');
 
-         this.domElement.classList.remove('why-open');
+        this.domElement.classList.remove('why-open');
 
-         this.expandButton.style.display = "initial";
+        this.expandButton.style.display = "initial";
 
-         this.closeButton.style.visibility = "hidden";
-     }
+        this.closeButton.style.visibility = "hidden";
+    }
 
 
 }
